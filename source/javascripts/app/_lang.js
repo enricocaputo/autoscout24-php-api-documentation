@@ -1,5 +1,3 @@
-//= require ../lib/_jquery
-
 /*
 Copyright 2008-2013 Concur Technologies, Inc.
 
@@ -31,10 +29,8 @@ under the License.
     $(".lang-selector a[data-language-name='" + language + "']").addClass('active');
     for (var i=0; i < languages.length; i++) {
       $(".highlight." + languages[i]).hide();
-      $(".lang-specific." + languages[i]).hide();
     }
     $(".highlight." + language).show();
-    $(".lang-specific." + language).show();
 
     global.toc.calculateHeights();
 
