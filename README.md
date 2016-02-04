@@ -1,1 +1,1 @@
-The documentation of the AutoScout24 API
+The public documentation of the AutoScout24 API
