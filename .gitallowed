@@ -1,0 +1,5 @@
+.gitallowed
+Gemfile.lock
+*.md
+*.html
+_lang.js
